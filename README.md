@@ -5,7 +5,8 @@
 version-control-project.git
 
 # Description
-Udacity 'Introduction to Version Control' end of course project
+Udacity 'Introduction to Version Control' end of course project.  
+Please note the python program 'bikeshae.py' will not run correctly as it's only being used to demonstrate git actions/commands for this project.
 
 # Files used
 README.md  

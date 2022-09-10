@@ -7,9 +7,12 @@ from input_util import get_user_input
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+              'washington': 'washington.csv',
+              'florida': 'florida.csv',
+              'las vegas': 'las vegas',
+              'Boston': 'boston' }
 
-CITIES = ['chicago', 'new york', 'washington']
+CITIES = ['chicago', 'new york', 'washington', 'florida', 'las vegas', 'boston']
 
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
 
@@ -27,9 +30,9 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
 
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (chicago, new york city, washington, florida, las vegas, boston). HINT: Use a while loop to handle invalid inputs
     while True:
-       city = input('Which city do you want to explore Chicago, New York or Washington? \n> ').lower()
+       city = input('Which city do you want to explore Chicago, New York, Washington, Florida, Las Vegas or Boston? \n> ').lower()
        if city in CITIES:
            break
 

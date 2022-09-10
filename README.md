@@ -17,5 +17,5 @@ new_york_city.csv
 washington.csv
 
 # Credits
-Project forked from https://github.com/udacity/pdsnd_github  
+Project forked from public https://github.com/udacity/pdsnd_github  
 bikeshare.py source code from https://github.com/ozlerhakan/bikeshare.git
